@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="logo"><img src="images/portfolio.png" alt="Portfolio logo"></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-btn">Home</a></li>
+            <li><a href="#projects" class="nav-btn">My Projects</a></li>
+            <li><a href="#contact" class="nav-btn">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home -->
+    <section class="home" id="home">
+        <div class="container">
+            <img src="images/photo.jpg" alt="Profile Photo">
+            <div class="intro">
+                <h1>About Me</h1>
+                <p>My name is Manoj Kumar and I am a second year undergraduate at IIT Kharagpur in the Department of Electronics and Electrical Communication Engineering.</p>
+                <p>I am passionate about continuous learning and I am a proactive problem-solver, identifying challenges early on and implementing strategic solutions to improve overall efficiency.</p>
+            </div>
+            <a href="#contact" class="btn">Contact me</a>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h1>My Projects</h1>
+            <br>
+            <div class="project">
+                <div class="project-info">
+                    <h2>Car Parking Assistant Prototype</h2>
+                    <p>I developed and implemented a Car Parking Assistant Prototype, along with two other teammates using Arduino UNO, Ultrasonic sensor, IR sensors, and LCD screen.</p>
+                </div>
+                <div class="project-media">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/m3d_qFNwPIU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h1>Contact Me</h1>
+            <div class="contact-form">
+                <form action="#">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <input type="submit" value="Send Message" class="btn">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media -->
+    <section id="socmed">
+        <h2>Follow me on social media</h2>
+        <br>
+        <ul>
+            <li><a href="https://www.facebook.com/profile.php?id=100075398349060&mibextid=ZbWKwL"><img src="images/facebook.jpg" alt="Facebook"></a></li>
+            <li><a href="https://www.instagram.com/raghupatrunimanojkumar/"><img src="images/instagram.jpg" alt="Instagram"></a></li>
+            <li><a href="https://youtube.com/@ManojKumar-xl1ux"><img src="images/youtube.jpg" alt="YouTube"></a></li>
+        </ul>
+    </section>
+
+</body>
+</html>
